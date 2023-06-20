@@ -76,7 +76,7 @@ def main():
         print(associative_array)
         
 
-        tols = tols[:-1] # 最後のついてる + を削除
+        tols = tols[:-1] # 最後についてる + を削除
         tols_double = evaluate_expression(tols, associative_array)
         print(tols)
 
